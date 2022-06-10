@@ -1,0 +1,103 @@
+.social-icons-mail {
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.social-icons-mobile {
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+
+}
+
+.current-line::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+
+    border-radius: 2px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background: $accent-color;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icons-svg {
+    width: 20px;
+    height: 20px;
+    fill: $social-icons0color;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-circle:hover .social-icons-svg,
+.social-icons-circle:focus .social-icons-svg {
+    fill: $background-whitetext-color;
+}
+
+.social-icons-circle {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.social-icons-circle:hover,
+.social-icons-circle:focus {
+    background-color: $accent-color;
+}
+.join-list {
+    display: flex;
+}
+
+.join-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.join-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join-svg {
+    width: 20px;
+    height: 20px;
+    fill: $background-whitetext-color;
+}
+
+.join-circle:hover,
+.join-circle:focus {
+    background-color: $accent-color;
+}

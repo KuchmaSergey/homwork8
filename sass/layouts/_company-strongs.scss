@@ -1,0 +1,45 @@
+.stronges-cotainer {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-stronges {
+    display: flex;
+}
+
+.stronges-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.page-stronges {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+
+    margin-bottom: 10px;
+}
+
+
+
+.text-strong {
+    color: $text-color;
+
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.grey-box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: $background-grey-color;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}

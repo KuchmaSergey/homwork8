@@ -1,0 +1,52 @@
+.footer {
+    background-color: $background-durk-color;
+}
+.adress-text {
+    color: $background-whitetext-color;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-list {
+    font-style: normal;
+}
+
+.link-footer {
+    color: $footer-contact-color;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adress-text:hover,
+.adress-text:focus {
+    color: $accent-color;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+    color: $accent-color;
+}
+
+.footer-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.wrapper {
+    display: flex;
+}
